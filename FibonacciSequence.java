@@ -2,7 +2,12 @@ package cen4802;
 import java.util.Scanner;
 
 public class FibonacciSequence {
-
+    /**
+     * This method uses recursion to calculate the position of a term of the Fibonacci sequence.
+     *
+     * @param n the position in the Fibonacci sequence (n >= 1)
+     * @return the nth term of the Fibonacci sequence
+     */
     public static int fibonacci(int n) {
         if (n == 1) {
             return 0;
